@@ -1,4 +1,5 @@
 {
+  "automerge": false,
   "packageRules": [
     {
       "updateTypes": "patch",
