@@ -16,5 +16,7 @@
     "url": "https://github.com/sabazusi/renovate-test/issues"
   },
   "homepage": "https://github.com/sabazusi/renovate-test#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "3.7.2"
+  }
 }
