@@ -2,7 +2,7 @@
   "automerge": false,
   "packageRules": [
     {
-      "updateTypes": "patch",
+      "updateTypes": ["patch"],
       "automerge": true
     }
   ]
