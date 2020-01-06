@@ -1,9 +1,9 @@
 {
-  "automerge": false,
+  "enabled": true,
   "packageRules": [
     {
       "updateTypes": ["patch"],
-      "automerge": true
+      "enabled": false
     }
   ]
 }
