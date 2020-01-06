@@ -1,5 +1,12 @@
 {
   "extends": [
     "config:base"
+  ],
+  "patch": {},
+  "packageRules": [
+    {
+      "updateTypes": ["patch"],
+      "enabled": false
+    }
   ]
 }
