@@ -24,7 +24,7 @@
     "@types/react-dom": "16.8.4",
     "@types/webpack": "4.4.32",
     "@types/webpack-bundle-analyzer": "2.13.3",
-    "@types/webpack-dev-middleware": "2.0.3",
+    "@types/webpack-dev-middleware": "3.7.0",
     "@types/webpack-hot-middleware": "2.16.5",
     "@types/webpack-node-externals": "1.6.3",
     "react-dom": "^16.8.6",
@@ -37,7 +37,7 @@
     "hard-source-webpack-plugin": "0.13.1",
     "webpack": "4.32.2",
     "webpack-bundle-analyzer": "3.3.2",
-    "webpack-dev-middleware": "3.7.0",
+    "webpack-dev-middleware": "3.7.2",
     "webpack-hot-middleware": "2.25.0",
     "webpack-node-externals": "1.7.2",
     "react": "16.8.6"
