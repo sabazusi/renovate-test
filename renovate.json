@@ -34,7 +34,7 @@
     },
     {
       "groupName": "webpack",
-      "packagePatterns": ["webpack", "@types/webpack"]
+      "packagePatterns": ["^webpack$", "^@types/webpack$"]
     }
   ]
 }
