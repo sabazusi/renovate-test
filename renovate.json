@@ -1,10 +1,39 @@
 {
-  "extends": ["config:base", "group:reactMonorepo"],
-  "prHourlyLimit": 10,
+  "extends": [
+    "config:base",
+    "group:emotionMonorepo",
+    "group:jestMonorepo",
+    "group:reactMonorepo",
+    "group:storybookMonorepo"
+  ],
+  "timezone": "Asia/Tokyo",
+  "labels": ["dependencies"],
+  "rebaseLabel": ":zap:",
+  "unpublishSafe": true,
+  "semanticCommits": true,
+  "semanticCommitType": "update",
+  "semanticCommitScope": null,
   "packageRules": [
     {
-      "groupName": "@types/react",
+      "updateTypes": ["patch"],
+      "enabled": false
+    },
+    {
+      "groupName": "react monorepo",
+      "extends": "monorepo:react",
       "packagePatterns": ["^@types/react$", "^@types/react-dom$"]
+    },
+    {
+      "groupName": "@loadable",
+      "packagePatterns": ["^@loadable/", "^@types/loadable__"]
+    },
+    {
+      "groupName": "hls.js",
+      "packagePatterns": ["^hls.js$", "^@types/hls.js$"]
+    },
+    {
+      "groupName": "webpack",
+      "packagePatterns": ["^webpack$", "^@types/webpack$"]
     }
   ]
 }
