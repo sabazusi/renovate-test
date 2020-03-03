@@ -2,8 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  }
+  "packageRules": [
+    {
+      "description": "auto merge test for at-types",
+      "packagePatterns": ["^@types/"],
+      "groupName": "definitely-typed",
+      "automerge": true
+    }
+  ]
 }
