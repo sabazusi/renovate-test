@@ -2,6 +2,9 @@
   "extends": [
     "config:base"
   ],
+  {
+  "prHourlyLimit": 10
+  },
   "packageRules": [
     {
       "description": "auto merge test for at-types",
