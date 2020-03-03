@@ -3,38 +3,9 @@
   "prHourlyLimit": 10,
   "packageRules": [
     {
-      "description": "auto merge test for at-types",
-      "packagePatterns": ["^@types/"],
-      "groupName": "definitely-typed",
-      "automerge": true
-    },
-    {
-      "groupName": "@storybook",
-      "packagePatterns": ["@storybook/"]
-    },
-    {
-      "groupName": "@types/react",
-      "packagePatterns": ["@types/react", "@types/react-dom"]
-    },
-    {
-      "groupName": "@loadable",
-      "packagePatterns": ["@loadable/", "@types/loadable__"]
-    },
-    {
-      "groupName": "express",
-      "packagePatterns": ["express", "@types/express"]
-    },
-    {
-      "groupName": "history",
-      "packagePatterns": ["history", "@types/history"]
-    },
-    {
-      "groupName": "hls.js",
-      "packagePatterns": ["hls.js", "@types/hls.js"]
-    },
-    {
-      "groupName": "webpack",
-      "packagePatterns": ["^webpack$", "^@types/webpack$"]
+      "groupName": "react monorepo",
+      "extends": "monorepo:react",
+      "packagePatterns": ["^@types/react$", "^@types/react-dom$"]
     }
   ]
 }
