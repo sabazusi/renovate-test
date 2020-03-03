@@ -26,7 +26,7 @@
     "@types/webpack-bundle-analyzer": "2.13.3",
     "@types/webpack-dev-middleware": "2.0.3",
     "@types/webpack-hot-middleware": "2.16.5",
-    "@types/webpack-node-externals": "1.6.3",
+    "@types/webpack-node-externals": "1.7.1",
     "react-dom": "^16.8.6",
     "typescript": "3.8.3"
   },
