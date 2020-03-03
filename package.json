@@ -121,7 +121,7 @@
     "@types/morgan": "1.7.36",
     "@types/ms": "0.7.31",
     "@types/nanoid": "2.1.0",
-    "@types/node": "11.13.19",
+    "@types/node": "11.15.7",
     "@types/on-headers": "1.0.0",
     "@types/prometheus-gc-stats": "0.6.1",
     "@types/puppeteer": "1.12.4",
