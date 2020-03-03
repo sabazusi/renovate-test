@@ -13,6 +13,7 @@
   "semanticCommits": true,
   "semanticCommitType": "update",
   "semanticCommitScope": null,
+  "prHourlyLimit": 0,
   "packageRules": [
     {
       "updateTypes": ["patch"],
