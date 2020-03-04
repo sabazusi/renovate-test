@@ -63,7 +63,7 @@
     "react-router-dom": "5.1.2",
     "react-schemaorg": "1.0.0",
     "react-transition-group": "4.2.1",
-    "react-use": "12.5.0",
+    "react-use": "12.13.0",
     "redux": "4.0.1",
     "redux-persist": "5.10.0",
     "schema-dts": "0.4.5",
