@@ -37,7 +37,7 @@
     "compression": "1.7.4",
     "consola": "2.11.1",
     "cookie-parser": "1.4.4",
-    "dayjs": "1.8.14",
+    "dayjs": "1.8.21",
     "emotion-normalize": "10.0.0",
     "event-source-polyfill": "1.0.8",
     "express": "4.17.1",
