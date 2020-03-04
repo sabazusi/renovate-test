@@ -125,7 +125,7 @@
     "@types/prometheus-gc-stats": "0.6.1",
     "@types/puppeteer": "1.12.4",
     "@types/qs": "6.5.3",
-    "@types/react": "16.8.25",
+    "@types/react": "16.9.23",
     "@types/react-dom": "16.9.5",
     "@types/react-redux": "7.1.1",
     "@types/react-router-config": "5.0.1",
