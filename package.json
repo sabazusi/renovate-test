@@ -67,7 +67,7 @@
     "redux": "4.0.1",
     "redux-persist": "5.10.0",
     "schema-dts": "0.4.5",
-    "serialize-javascript": "2.1.1",
+    "serialize-javascript": "3.0.0",
     "source-map-support": "0.5.12",
     "stringz": "2.0.0",
     "swiper": "5.3.1",
