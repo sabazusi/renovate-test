@@ -49,7 +49,7 @@
     "history": "4.10.1",
     "hls.js": "0.12.4",
     "jwt-decode": "2.2.0",
-    "nanoid": "2.1.10",
+    "nanoid": "2.1.11",
     "on-headers": "1.0.2",
     "prom-client": "11.5.3",
     "prometheus-gc-stats": "0.6.2",
