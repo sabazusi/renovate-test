@@ -21,6 +21,7 @@
     },
     {
       "packagePatterns": ["^@types/"],
+      "description": "これは自動マージ対象です",
       "automerge": true
     },
     {
