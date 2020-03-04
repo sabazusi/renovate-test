@@ -176,7 +176,7 @@
     "prettier": "1.19.1",
     "prettier-stylelint": "0.4.2",
     "puppeteer": "1.18.0",
-    "react-hooks-testing-library": "0.5.1",
+    "react-hooks-testing-library": "0.6.0",
     "react-test-renderer": "16.8.6",
     "reg-keygen-git-hash-plugin": "0.7.25",
     "reg-notify-github-plugin": "0.7.26",
