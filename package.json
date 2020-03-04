@@ -47,7 +47,7 @@
     "formik": "1.5.8",
     "helmet": "3.21.2",
     "history": "4.10.1",
-    "hls.js": "0.12.4",
+    "hls.js": "0.13.2",
     "jwt-decode": "2.2.0",
     "nanoid": "2.1.10",
     "on-headers": "1.0.2",
