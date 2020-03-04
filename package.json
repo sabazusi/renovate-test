@@ -66,7 +66,7 @@
     "react-use": "12.5.0",
     "redux": "4.0.1",
     "redux-persist": "5.10.0",
-    "schema-dts": "0.4.5",
+    "schema-dts": "0.5.1",
     "serialize-javascript": "2.1.1",
     "source-map-support": "0.5.12",
     "stringz": "2.0.0",
