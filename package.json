@@ -89,7 +89,7 @@
     "@babel/preset-react": "7.0.0",
     "@babel/preset-typescript": "7.3.3",
     "@loadable/babel-plugin": "5.10.0",
-    "@loadable/webpack-plugin": "5.7.1",
+    "@loadable/webpack-plugin": "5.12.0",
     "@storybook/addon-a11y": "5.3.3",
     "@storybook/addon-actions": "5.3.3",
     "@storybook/addon-backgrounds": "5.3.3",
