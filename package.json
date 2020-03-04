@@ -181,7 +181,7 @@
     "reg-keygen-git-hash-plugin": "0.7.25",
     "reg-notify-github-plugin": "0.7.26",
     "reg-publish-gcs-plugin": "0.7.25",
-    "reg-suit": "0.8.4",
+    "reg-suit": "0.10.0",
     "release-it": "12.4.3",
     "rimraf": "2.6.3",
     "scaffdog": "0.2.0",
