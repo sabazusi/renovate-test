@@ -42,7 +42,7 @@
     "event-source-polyfill": "1.0.8",
     "express": "4.17.1",
     "express-basic-auth": "1.2.0",
-    "firebase": "6.1.0",
+    "firebase": "6.6.2",
     "focus-trap-react": "6.0.0",
     "formik": "1.5.8",
     "helmet": "3.21.2",
