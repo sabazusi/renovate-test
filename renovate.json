@@ -21,8 +21,8 @@
       "enabled": false
     },
     {
-      "packagePatterns": ["^@types/"],
-      "description": "これは自動マージ対象です",
+      "description": "@typesの型定義更新PRです。CI通過後にrenovateにより自動でマージされます。",
+      "extends": "group:definitelyTyped",
       "automerge": true
     },
     {

@@ -122,6 +122,7 @@
     "@types/nanoid": "2.1.0",
     "@types/node": "11.13.19",
     "@types/on-headers": "1.0.0",
+    "@types/pino": "3.0.1",
     "@types/prometheus-gc-stats": "0.6.1",
     "@types/puppeteer": "1.12.4",
     "@types/qs": "6.5.3",
