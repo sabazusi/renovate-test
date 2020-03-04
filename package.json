@@ -182,7 +182,7 @@
     "reg-notify-github-plugin": "0.7.26",
     "reg-publish-gcs-plugin": "0.7.25",
     "reg-suit": "0.8.4",
-    "release-it": "12.4.3",
+    "release-it": "12.6.3",
     "rimraf": "2.6.3",
     "scaffdog": "0.2.0",
     "storycap": "2.3.1",
