@@ -20,9 +20,8 @@
       "enabled": false
     },
     {
-      "groupName": "react monorepo",
-      "extends": "monorepo:react",
-      "packagePatterns": ["^@types/react$", "^@types/react-dom$"]
+      "packagePatterns": ["^@types/"],
+      "automerge": true
     },
     {
       "groupName": "@loadable",
