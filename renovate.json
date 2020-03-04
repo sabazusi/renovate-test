@@ -22,8 +22,7 @@
     },
     {
       "description": "@typesの型定義更新PRです。CI通過後にrenovateにより自動でマージされます。",
-      "depTypeList": "devDependencies",
-      "extends": "group:definitelyTyped",
+      "packagePatterns": ["^@types/"],
       "automerge": true
     }
   ]
