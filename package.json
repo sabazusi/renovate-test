@@ -172,7 +172,7 @@
     "mockdate": "2.0.5",
     "morgan": "1.9.1",
     "ms": "2.1.2",
-    "nock": "11.7.0",
+    "nock": "11.9.1",
     "prettier": "1.19.1",
     "prettier-stylelint": "0.4.2",
     "puppeteer": "1.18.0",
