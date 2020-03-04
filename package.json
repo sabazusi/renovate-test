@@ -180,7 +180,7 @@
     "react-test-renderer": "16.8.6",
     "reg-keygen-git-hash-plugin": "0.7.25",
     "reg-notify-github-plugin": "0.7.26",
-    "reg-publish-gcs-plugin": "0.7.25",
+    "reg-publish-gcs-plugin": "0.9.0",
     "reg-suit": "0.8.4",
     "release-it": "12.4.3",
     "rimraf": "2.6.3",
