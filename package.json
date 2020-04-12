@@ -27,7 +27,7 @@
     "@types/body-parser": "1.19.0",
     "@types/browserslist": "4.8.0",
     "@types/bytes": "3.1.0",
-    "@types/webpack": "4.41.10",
+    "@types/webpack": "4.41.11",
     "@types/webpack-bundle-analyzer": "2.13.3",
     "@types/webpack-dev-middleware": "3.7.0",
     "@types/webpack-hot-middleware": "2.25.1",
