@@ -28,7 +28,7 @@
     "@types/browserslist": "4.8.0",
     "@types/bytes": "3.1.0",
     "@types/webpack": "4.41.13",
-    "@types/webpack-bundle-analyzer": "2.13.3",
+    "@types/webpack-bundle-analyzer": "3.8.0",
     "@types/webpack-dev-middleware": "3.7.1",
     "@types/webpack-hot-middleware": "2.25.3",
     "@types/webpack-node-externals": "1.7.1",
