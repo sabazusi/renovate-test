@@ -31,7 +31,7 @@
     "@types/webpack-bundle-analyzer": "3.8.0",
     "@types/webpack-dev-middleware": "3.7.1",
     "@types/webpack-hot-middleware": "2.25.3",
-    "@types/webpack-node-externals": "1.7.1",
+    "@types/webpack-node-externals": "2.5.0",
     "@typescript-eslint/eslint-plugin": "2.12.0",
     "@typescript-eslint/parser": "2.12.0"
   }
