@@ -1,29 +1,74 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
     "group:emotionMonorepo",
     "group:jestMonorepo",
     "group:reactMonorepo",
-    "group:storybookMonorepo"
+    "group:storybookMonorepo",
+    "group:typescript-eslintMonorepo",
+    "npm:unpublishSafe"
   ],
   "timezone": "Asia/Tokyo",
-  "labels": ["dependencies"],
-  "rebaseLabel": ":zap:",
-  "unpublishSafe": true,
-  "semanticCommits": true,
-  "semanticCommitType": "update",
-  "semanticCommitScope": null,
+  "labels": ["A-dependencies :package:", "S-awaiting-review :star2:"],
+  "rebaseLabel": "S-needs-rebase :zap:",
+  "vulnerabilityAlerts": {
+    "labels": ["A-security :lock:"]
+  },
   "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
+  "prHourlyLimit": 10,
+  "schedule": ["before 8am every weekday", "every weekend"],
+  "semanticCommits": "enabled",
+  "semanticCommitType": "renovate",
+  "semanticCommitScope": "",
+  "ignorePaths": [".github/"],
+  "patch": {},
   "packageRules": [
     {
-      "updateTypes": ["patch"],
+      "matchUpdateTypes": ["patch"],
       "enabled": false
     },
     {
-      "description": "@typesの型定義更新PRです。CI通過後にrenovateにより自動でマージされます。",
-      "packagePatterns": ["^@types/"],
+      "description": "framework chunksに分類されるパッケージです。",
+      "matchPackagePatterns": [
+        "^@loadable/component$",
+        "^@sentry/browser$",
+        "^ab-testing$",
+        "^axios$",
+        "^react-dom$",
+        "^react-helmet-async$",
+        "^react-redux$",
+        "^react-router-dom$",
+        "^react-router$",
+        "^react$",
+        "^redux$"
+      ],
+      "labels": ["A-dependencies-framework"]
+    },
+    {
+      "description": "product codeに影響しない依存パッケージはauto mergeの対象とします",
+      "matchPackagePatterns": [
+        "^@types/",
+        "^eslint",
+        "^stylelint",
+        "^prettier",
+        "nock",
+        "morgan",
+        "puppeteer",
+        "scaffdog"
+      ],
       "automerge": true
+    },
+    {
+      "description": "jest/ts-eslint monorepoもautomergeを有効にします",
+      "extends": ["group:jestMonorepo", "group:typescript-eslintMonorepo"],
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "description": "VRT系（kapetanios置き換え後remove予定）",
+      "groupName": "reg-viz",
+      "matchPackagePatterns": ["^reg-suit$", "^reg-*-plugin"]
     }
   ]
 }
