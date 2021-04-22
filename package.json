@@ -34,6 +34,7 @@
     "@types/webpack-node-externals": "2.5.1",
     "@typescript-eslint/eslint-plugin": "2.12.0",
     "@typescript-eslint/parser": "2.12.0",
+    "scaffdog": "^1.0.0",
     "typescript": "3.7.7"
   }
 }
