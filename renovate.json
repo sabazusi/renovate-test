@@ -57,12 +57,14 @@
         "puppeteer",
         "scaffdog"
       ],
+      "commitMessagePrefix": "[automerge1]",
       "automerge": true
     },
     {
       "description": "jest/ts-eslint monorepoもautomergeを有効にします",
       "extends": ["group:jestMonorepo", "group:typescript-eslintMonorepo"],
       "matchDepTypes": ["devDependencies"],
+      "commitMessagePrefix": "[automerge2]",
       "automerge": true
     },
     {
