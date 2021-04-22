@@ -46,6 +46,12 @@
       "labels": ["A-dependencies-framework"]
     },
     {
+      "description": "jest/ts-eslint monorepoもautomergeを有効にします",
+      "extends": ["group:jestMonorepo", "group:typescript-eslintMonorepo"],
+      "commitMessagePrefix": "[automerge-2]",
+      "automerge": true
+    },
+    {
       "description": "product codeに影響しない依存パッケージはauto mergeの対象とします",
       "matchPackagePatterns": [
         "^@types/",
@@ -57,13 +63,7 @@
         "puppeteer",
         "scaffdog"
       ],
-      "commitMessagePrefix": "[automerge1]",
-      "automerge": true
-    },
-    {
-      "description": "jest/ts-eslint monorepoもautomergeを有効にします",
-      "extends": ["group:jestMonorepo", "group:typescript-eslintMonorepo"],
-      "commitMessagePrefix": "[automerge2]",
+      "commitMessagePrefix": "[automerge-1]",
       "automerge": true
     },
     {
