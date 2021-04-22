@@ -17,7 +17,6 @@
   },
   "prConcurrentLimit": 0,
   "prHourlyLimit": 10,
-  "schedule": ["before 8am every weekday", "every weekend"],
   "semanticCommits": "enabled",
   "semanticCommitType": "renovate",
   "semanticCommitScope": "",
