@@ -47,8 +47,10 @@
     },
     {
       "description": "jest/ts-eslint monorepoもautomergeを有効にします",
-      "extends": ["group:jestMonorepo", "group:typescript-eslintMonorepo"],
-      "matchDepTypes": ["devDependencies"],
+      "matchSourceUrlPrefixes": [
+        "https://github.com/facebook/jest",
+        "https://github.com/typescript-eslint/typescript-eslint"
+      ],
       "commitMessagePrefix": "[automerge-2]",
       "automerge": true
     },
