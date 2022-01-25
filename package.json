@@ -37,7 +37,7 @@
     "@typescript-eslint/parser": "5.10.0",
     "copy-webpack-plugin": "8.1.1",
     "jest": "27.4.3",
-    "scaffdog": "1.1.0",
+    "scaffdog": "1.2.0",
     "typescript": "3.7.7"
   }
 }
