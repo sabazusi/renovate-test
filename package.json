@@ -35,7 +35,7 @@
     "@types/webpack-node-externals": "2.5.1",
     "@typescript-eslint/eslint-plugin": "5.21.0",
     "@typescript-eslint/parser": "5.21.0",
-    "copy-webpack-plugin": "8.1.1",
+    "copy-webpack-plugin": "10.2.4",
     "jest": "27.5.0",
     "scaffdog": "1.2.0",
     "typescript": "3.7.7"
